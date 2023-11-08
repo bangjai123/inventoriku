@@ -27,7 +27,7 @@
    - Membuat tiga tombol sederhana dengan ikon dan teks untuk melihat item, tambah item, logout:
      1.  membuat file `menu.dart` pada direktori `inventoriku\lib`
      2.  Memasukkan kode di bawah ini
- ```
+ ````
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
