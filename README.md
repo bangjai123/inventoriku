@@ -143,9 +143,9 @@ class ShopCard extends StatelessWidget {
 }
 
 ````
-`
-         3. Memunculkan Snackbar:
-            - Sudah dimunculkan pada kode di atas melalui
+
+   3. Memunculkan Snackbar:
+      - Sudah dimunculkan pada kode di atas melalui
 
 ````
       child: InkWell(
@@ -159,5 +159,5 @@ class ShopCard extends StatelessWidget {
         },
 ````
 
-        4. Menjawab pertanyaan readme
-        5. Melakukan Melakukan `add-commit-push` ke GitHub
+   4. Menjawab pertanyaan readme
+   5. Melakukan Melakukan `add-commit-push` ke GitHub
