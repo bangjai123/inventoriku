@@ -143,3 +143,18 @@ class ShopCard extends StatelessWidget {
 }
 
 ````
+         3. Memunculkan Snackbar:
+            - Sudah dimunculkan pada kode di atas melalui
+````
+      child: InkWell(
+        // Area responsive terhadap sentuhan
+        onTap: () {
+          // Memunculkan SnackBar ketika diklik
+          ScaffoldMessenger.of(context)
+            ..hideCurrentSnackBar()
+            ..showSnackBar(SnackBar(
+                content: Text("Kamu telah menekan tombol ${item.name}!")));
+        },
+````
+        4. Menjawab pertanyaan readme
+        5. Melakukan Melakukan `add-commit-push` ke GitHub
