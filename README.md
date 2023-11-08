@@ -28,7 +28,7 @@
      1.  membuat file `menu.dart` pada direktori `inventoriku\lib`
      2.  Memasukkan kode di bawah ini
  ```
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
@@ -141,4 +141,5 @@ class ShopCard extends StatelessWidget {
     );
   }
 }
+
 ````
