@@ -143,8 +143,10 @@ class ShopCard extends StatelessWidget {
 }
 
 ````
+`
          3. Memunculkan Snackbar:
             - Sudah dimunculkan pada kode di atas melalui
+
 ````
       child: InkWell(
         // Area responsive terhadap sentuhan
@@ -156,5 +158,6 @@ class ShopCard extends StatelessWidget {
                 content: Text("Kamu telah menekan tombol ${item.name}!")));
         },
 ````
+
         4. Menjawab pertanyaan readme
         5. Melakukan Melakukan `add-commit-push` ke GitHub
