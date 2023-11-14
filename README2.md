@@ -251,7 +251,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
 
 ````
 
-    - Mengarahkan pengguna ke halaman form tambah item baru ketika menekan tombol Tambah Item pada halaman utama:
+  - Mengarahkan pengguna ke halaman form tambah item baru ketika menekan tombol Tambah Item pada halaman utama:
 
     Menambahkan fungsi Navigator.push() ke tombol Tambah Item. hal ini dilakukan dengan memasukkan kode:
 
@@ -262,7 +262,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
 }
 
 ````
-    - Memunculkan data sesuai isi dari formulir yang diisi dalam sebuah pop-up setelah menekan tombol Save pada halaman formulir tambah item baru:
+  - Memunculkan data sesuai isi dari formulir yang diisi dalam sebuah pop-up setelah menekan tombol Save pada halaman formulir tambah item baru:
 
     Hal ini deilakukan pada kode yang telah diberikan di atas. Lebih spesifik pada bagian:
 
@@ -296,11 +296,11 @@ showDialog(
 );
 
 ````
-    - Membuat sebuah drawer pada aplikasi dengan ketentuan yang diberikan:
+  - Membuat sebuah drawer pada aplikasi dengan ketentuan yang diberikan:
 
-        - Membuat file (class untuk drawer). Dalam projek ini, saya membuat `left_drawer.dart`
+       - Membuat file (class untuk drawer). Dalam projek ini, saya membuat `left_drawer.dart`
 
-        - Mengisi file tersebut dengan
+       - Mengisi file tersebut dengan
 ````
 import 'package:flutter/material.dart';
 import 'package:inventoriku/screen/menu.dart';
