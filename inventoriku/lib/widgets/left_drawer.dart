@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inventoriku/screen/menu.dart';
 import 'package:inventoriku/screen/inventoriku_form.dart';
+import 'package:inventoriku/screen/list_item.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -63,6 +64,17 @@ class LeftDrawer extends StatelessWidget {
     TODO: Buatlah routing ke ShopFormPage di sini,
     setelah halaman ShopFormPage sudah dibuat.
     */
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.shopping_basket),
+            title: const Text('Daftar Item'),
+            onTap: () {
+              // Route menu ke halaman produk
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProductPage()),
+              );
             },
           ),
         ],

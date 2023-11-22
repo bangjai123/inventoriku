@@ -1,4 +1,4 @@
-# Tugas 1
+# Tugas 1 (7)
 1. stateless widget adalah widget yang tidak dapat berubah setelah dibuat (selama aplikasi berjalan). Hal ini berarti untuk mengubah stateless widget hanya dapat diubah dengan mengubah programnya. Di sisi lain, stateful widget adalah widget yang dapat diperbarui sesuai jalanya aplikasi. Hal ini berarti apabila terjadi event tertentu seperti klik, widget dapat memperbarui tampilannya.
    
 2. Widget yang digunakan pada tugas ini adalah sebagai berikut.
